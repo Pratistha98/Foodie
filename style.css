@@ -1,0 +1,217 @@
+body{
+    background-color:white;
+}
+/* anchor tag */
+a, u {
+    text-decoration: none;
+}
+/* navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(255, 226, 214) 0%, rgb(255, 255, 255) 28%); 
+    width:100%;
+}
+#logo{
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: 1px;
+    font-size: 62px;
+    margin-left: 30px;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 19px;
+}
+#search-box{
+    width:750px;
+    height:40px;
+    margin-top: 15px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline:none;
+    font-family: 'Fahkwang', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 19px;
+}
+.menu-items{
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 2px;
+    margin-top: 19px;
+}
+.btn-primary{
+    background-color: #FA773C;
+    color:black;
+    border-radius: 16px;
+    margin-right: 30px;
+    padding: 8px 19px;
+    font-family: 'Fahkwang', sans-serif;
+    letter-spacing: 2px;
+    font-size: 19px;
+    margin-top: 19px;
+    box-shadow: 6px 6px 10p x rgb(247, 169, 133);
+    border: none;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+
+hr{
+   margin: 10px 30px;
+}
+
+/* Landing section */
+.landing-section h1{
+    font-family: 'Fahkwang', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.landing-section h3{
+    font-family: 'Fahkwang', sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 60px;
+}
+.landing-images-wrapper{
+    display: flex;
+    width: 15%;
+}
+#landing-image{
+   width: 100%;
+   border-radius: 10px;
+   margin-left:60px;
+}
+#landing-image:hover{
+    box-shadow: 8px 8px 10px rgb(65, 65, 65);
+    transform: scale(1.1);
+ }
+ #landing-bottom{
+    margin-top: 150px;
+ }
+ #spoon-fork{
+     width:5%;
+ }
+ .spoon-wrapper{
+    text-align: center;
+    margin-top: 45px;
+ }
+ /* foodie feed */
+
+ .feed-wrapper{
+     display: flex;
+ }
+ .food-images{
+    margin-left: 200px;
+    margin-top: 60px;
+ }
+ #feed-image{
+    width:500px;
+    height: 500px;
+    object-fit: cover;
+    background-position: center;
+ }
+ .feed-description{
+     margin-top: 130px;
+     margin-left: 60px;
+     width:40%;
+     background-color: rgb(245, 245, 245);
+     border: 1px solid black;
+     height: 310px;
+ }
+ #description-user{
+     border-radius: 50%;
+     width:100px;
+     height:100px;
+     object-fit:cover;
+     margin: 20px 
+ }
+ .description-header{
+     display: flex;
+ }
+ .description-header p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 21px;
+    margin-top: 40px;
+    font-size: 20px;
+ }
+ .feed-description h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 20px;
+ }
+ .feed-description h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 20px;
+ }
+ /* star */
+#stars{
+    margin-top:40px;
+    margin-left: 210px;
+ }
+ .checked{
+     color: rgb(255, 196, 0);
+ }
+ .like-section{
+     margin-left: 40px;
+ }
+
+ /* LOGIN PAGE  */
+ .login{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #f8f8f8;
+     margin: 60px 400px;
+ }
+ .login img{
+     border-radius: 50%;
+     width: 200px; 
+     height: 200px;
+     object-fit: cover;
+ }
+ .login-header{
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 45px;
+    margin: 20px;
+    margin-top: 45px;
+    letter-spacing: 2px;
+ }
+
+ .form-value{
+    font-family: sans-serif;
+     outline: none;
+     border: none;
+     border-bottom: 1px solid black;
+     background-color: #f8f8f8;
+     padding: 19px;
+     width: 300px;
+     letter-spacing: 2px;
+ }
+ form{
+     margin-top: 10px;
+     font-family: 'Fahkwang', sans-serif;
+     text-align: center;
+     margin-bottom: 50px;
+ }
+ .btn-submit{
+    background-color: #FA773C;
+    color:white;
+    border-radius: 16px;
+    font-family: 'Fahkwang', sans-serif;
+    box-shadow: 6px 6px 10p x rgb(247, 169, 133);
+    border: none;
+    padding: 8px 19px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 19px;
+    margin-top: 20px;
+ }
+ .btn-submit:hover{
+    transform: scale(1.1);
+ }
