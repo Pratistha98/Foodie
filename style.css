@@ -42,6 +42,17 @@ nav{
     letter-spacing: 2px;
     margin-top: 19px;
 }
+#menu-image{
+    height: 45px; 
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 19px;
+    margin-right: 30px;
+}
+
+#menu-image:hover{
+    transform: scale(1.1);
+}
 .btn-primary{
     background-color: #FA773C;
     color:black;
@@ -192,12 +203,17 @@ hr{
      padding: 19px;
      width: 300px;
      letter-spacing: 2px;
+     font-size: 15px;
  }
  form{
      margin-top: 10px;
      font-family: 'Fahkwang', sans-serif;
      text-align: center;
      margin-bottom: 50px;
+ }
+ form p {
+     color: rgb(131, 130, 130);
+     text-align: left;
  }
  .btn-submit{
     background-color: #FA773C;
@@ -215,3 +231,22 @@ hr{
  .btn-submit:hover{
     transform: scale(1.1);
  }
+ /* Dashboard */
+ .btn-post{
+    background-color: #FA773C;
+    color:black;
+    border-radius: 16px;
+    position: relative; 
+    outline: none;
+    padding: 8px 19px;
+    font-family: 'Fahkwang', sans-serif;
+    letter-spacing: 2px;
+    font-size: 19px;
+    box-shadow: 6px 6px 10p x rgb(247, 169, 133);
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn-post:hover{
+    background-color: rgb(230, 112, 57);
+}
